@@ -1,0 +1,329 @@
+/* Default Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Alata', sans-serif;
+  color: #343a40;
+}
+
+p {
+  color: #343a40;
+}
+
+img {
+  border: solid 1px rgba(71, 73, 73, 0.425);
+  border-radius: 3px;
+}
+
+html,
+body {
+  background-color: #ecf0f1;
+}
+
+/* Header & Main Nav */
+header {
+  background: #ecf0f1;
+  /* position: fixed; */
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  font-family: 'Alata', sans-serif;
+  font-weight: 700;
+  font-size: 1.45rem;
+  color: #343a40 !important;
+}
+
+.navbar-nav {
+  font-family: 'Alata', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+/* MAIN CONTENT*/
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  /* Main background image */
+  background: url(../images/index-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  /* General styles */
+  padding-top: 7%;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  flex: 1 0 auto;
+}
+.homepage-hero {
+  padding-top: 12%;
+  height: 80vh;
+}
+
+/* Main heading on home page */
+.hero-heading {
+  color: white;
+  margin: 5% 0;
+}
+
+.container {
+  margin: 0 10%;
+}
+
+.main-container {
+  background: #ecf0f1;
+  border: solid #8f26468a;
+  border-radius: 5px;
+  margin-bottom: 10%;
+}
+
+.main-heading {
+  margin: 20px 0;
+  border-bottom: solid 2px #8f26468a;
+}
+
+.main-heading h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.main-content {
+  font-size: 20px;
+}
+
+.main-content img {
+  margin-right: 15px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.practice {
+  margin-top: 1%;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+/* Social links on the about page */
+.social-links a {
+  font-size: 2rem;
+  color: #2d3e4f;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #2d3e4f9d;
+}
+
+/* Images on portfolio page */
+.recent-work img {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+/* Portfolio Image text container & div styles */
+.img-container {
+  position: relative;
+}
+.img-portfolio {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.img-middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  width: 55%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.img-bottom {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  width: 93%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* Set portfolio image text styles */
+.img-text {
+  background-color: #041739;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.img-bottom .img-text {
+  font-size: 13px;
+}
+/* Adjust portfolio image content on hover */
+.img-container:hover .img-portfolio {
+  opacity: 0.2;
+}
+.img-container:hover .img-middle {
+  opacity: 1;
+}
+.img-container:hover .img-bottom {
+  opacity: 0.95;
+}
+
+/* Team Projects */
+.project-subheading {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.project-bullet-head {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Accordion on Portfilio Page */
+.accordion-section {
+  width: 100%;
+  margin: 0 auto;
+}
+.card button[aria-expanded='false']:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  position: relative;
+  color: #0d141a;
+  font-size: 14px;
+  line-height: 22px;
+  left: 5px;
+  top: calc(50% - 10px);
+}
+.card button[aria-expanded='true']:after {
+  content: '\2796'; /* Unicode character for "minus" sign (-) */
+  position: relative;
+  color: #0d141a;
+  font-size: 14px;
+  line-height: 22px;
+  left: 5px;
+  top: calc(50% - 10px);
+  transform: rotate(45deg);
+}
+
+.card-header h2 button {
+  font-size: 18px;
+}
+.card-header span {
+  font-size: 14px;
+}
+
+.card-links,
+.card-story {
+  border-top: 1px solid #a5a5a5;
+  padding: 1.25rem;
+}
+
+.card-story ul {
+  padding-left: 1.25rem;
+}
+
+/* Footer */
+footer {
+  background: #ecf0f1;
+  width: 100%;
+  border-top: 5px solid #8f2646c4;
+  padding: 20px;
+  flex-shrink: 0;
+}
+
+.footer-content {
+  text-align: center;
+  color: #343a40;
+  align-items: center;
+}
+
+/* 769 break point */
+@media screen and (max-width: 768px) {
+  .main-container {
+    /* I kept 1% margin on the sides here because I like the aesthetic of it, even though the readme asked for 0 space at this breakpoint*/
+    margin: 0 auto 6% auto;
+  }
+  .main-content {
+    font-size: 18px;
+  }
+  .homepage-hero {
+    height: 60vh;
+    padding-top: 0;
+  }
+  .hero-heading {
+    width: 80%;
+    margin-top: 33%;
+    font-size: 36px;
+  }
+  .accordion-section {
+    width: 100%;
+  }
+  .accordion.container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .card-header h2 button {
+    font-size: 14px;
+  }
+  .card-header span {
+    font-size: 12px;
+  }
+  .card button[aria-expanded='false']:after {
+    font-size: 10px;
+  }
+  .card button[aria-expanded='true']:after {
+    font-size: 10px;
+  }
+  .recent-work img:hover {
+    transform: none;
+  }
+  .img-portfolio {
+    opacity: 0.6;
+  }
+  .img-middle {
+    opacity: 1;
+  }
+  .img-bottom {
+    opacity: 0.95;
+  }
+}
+
+/* 425 Break point
+  @media screen and (max-width: 425px) {
+      .main-container {
+          margin: 10% 0 20% 0;
+      }
+  
+      .main-content {
+          font-size: 16px;
+      }
+  } */
