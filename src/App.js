@@ -14,8 +14,6 @@ function App() {
       <Fragment>
         <Navbar />
         <Route path="/" component={Home} />
-        {/* <Route path="/" component={About} />
-        <Route path="/portfolio" component={Portfolio} /> */}
         <Footer />
       </Fragment>
     </Router>
