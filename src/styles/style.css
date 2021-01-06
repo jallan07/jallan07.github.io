@@ -318,12 +318,12 @@ footer {
 }
 
 /* 425 Break point
-  @media screen and (max-width: 425px) {
-      .main-container {
-          margin: 10% 0 20% 0;
-      }
-  
-      .main-content {
-          font-size: 16px;
-      }
-  } */
+    @media screen and (max-width: 425px) {
+        .main-container {
+            margin: 10% 0 20% 0;
+        }
+    
+        .main-content {
+            font-size: 16px;
+        }
+    } */

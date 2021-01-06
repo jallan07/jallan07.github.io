@@ -2,6 +2,7 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './components/layouts/Home';
 // styles
 import 'bootswatch/dist/flatly/bootstrap.min.css';
@@ -14,7 +15,8 @@ function App() {
         <Navbar />
         <Route path="/" component={Home} />
         {/* <Route path="/" component={About} />
-        <Route path="/" component={Portfolio} /> */}
+        <Route path="/portfolio" component={Portfolio} /> */}
+        <Footer />
       </Fragment>
     </Router>
   );
