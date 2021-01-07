@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import links from './data/links.json';
 
 function Navbar() {
+  // filter out facebook from the links data object so it doesn't appear in the connect dropdown
+  const connectLinks = links.filter((links) => links.name !== 'Facebook');
   return (
     <header className="bootstrap-nav">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -48,32 +51,19 @@ function Navbar() {
                 Connect
               </Link>
               <div className="dropdown-menu">
-                <Link
-                  className="dropdown-item"
-                  to="github.com/jallan07"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub
-                </Link>
-                <div className="dropdown-divider"></div>
-                <Link
-                  className="dropdown-item"
-                  to="linkedin.com/in/joshuamallan/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  LinkedIn
-                </Link>
-                <div className="dropdown-divider"></div>
-                <Link
-                  className="dropdown-item"
-                  to="drive.google.com/file/d/1O1_YmbnMh73aZw9gmnmFZWn4r_MkU977/view?usp=sharing"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Resume/CV
-                </Link>
+                {connectLinks.map((link) => {
+                  return (
+                    <Link
+                      className="dropdown-item"
+                      to={link.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      key={link.id}
+                    >
+                      {link.name}
+                    </Link>
+                  );
+                })}
               </div>
             </li>
           </ul>

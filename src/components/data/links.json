@@ -1,31 +1,31 @@
 [
   {
     "id": 1,
-    "name": "email",
+    "name": "Email",
     "url": "mailto:allan.josh07@gmail.com",
     "icon": "fas fa-envelope-square"
   },
   {
     "id": 2,
-    "name": "github",
+    "name": "GitHub",
     "url": "github.com/jallan07",
     "icon": "fab fa-github-square"
   },
   {
     "id": 3,
-    "name": "linkedin",
+    "name": "Linkedin",
     "url": "linkedin.com/in/joshuamallan/",
     "icon": "fab fa-linkedin"
   },
   {
     "id": 4,
-    "name": "facebook",
+    "name": "Facebook",
     "url": "facebook.com/joshua.m.allan",
     "icon": "fab fa-facebook-square"
   },
   {
     "id": 5,
-    "name": "resume",
+    "name": "Resume/CV",
     "url": "drive.google.com/file/d/1O1_YmbnMh73aZw9gmnmFZWn4r_MkU977/view?usp=sharing",
     "icon": "fas fa-address-card"
   }
