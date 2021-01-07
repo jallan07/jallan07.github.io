@@ -6,10 +6,13 @@ import Footer from './components/Footer';
 import Home from './components/layouts/Home';
 import About from './components/layouts/About';
 // styles
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import 'bootswatch/dist/flatly/bootstrap.min.css';
 import './styles/style.css';
 
 function App() {
+  AOS.init();
   return (
     <Router>
       <Fragment>

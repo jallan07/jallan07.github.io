@@ -1,10 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 function Home() {
-  AOS.init();
   return (
     <main className="container-fluid">
       <section className="row wrapper homepage-hero">

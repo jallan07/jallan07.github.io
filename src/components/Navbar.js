@@ -50,7 +50,7 @@ function Navbar() {
               <div className="dropdown-menu">
                 <Link
                   className="dropdown-item"
-                  to="https://github.com/jallan07"
+                  to="github.com/jallan07"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -59,7 +59,7 @@ function Navbar() {
                 <div className="dropdown-divider"></div>
                 <Link
                   className="dropdown-item"
-                  to="https://www.linkedin.com/in/joshuamallan/"
+                  to="linkedin.com/in/joshuamallan/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -68,7 +68,7 @@ function Navbar() {
                 <div className="dropdown-divider"></div>
                 <Link
                   className="dropdown-item"
-                  to="https://drive.google.com/file/d/1O1_YmbnMh73aZw9gmnmFZWn4r_MkU977/view?usp=sharing"
+                  to="drive.google.com/file/d/1O1_YmbnMh73aZw9gmnmFZWn4r_MkU977/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
