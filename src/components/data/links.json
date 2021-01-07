@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "email",
+    "url": "mailto:allan.josh07@gmail.com",
+    "icon": "fas fa-envelope-square"
+  },
+  {
+    "id": 2,
+    "name": "github",
+    "url": "//github.com/jallan07",
+    "icon": "fab fa-github-square"
+  },
+  {
+    "id": 3,
+    "name": "linkedin",
+    "url": "//www.linkedin.com/in/joshuamallan/",
+    "icon": "fab fa-linkedin"
+  },
+  {
+    "id": 4,
+    "name": "facebook",
+    "url": "//www.facebook.com/joshua.m.allan",
+    "icon": "fab fa-facebook-square"
+  }
+]

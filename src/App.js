@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/layouts/Home';
+import About from './components/layouts/About';
 // styles
 import 'bootswatch/dist/flatly/bootstrap.min.css';
 import './styles/style.css';
@@ -13,7 +14,8 @@ function App() {
     <Router>
       <Fragment>
         <Navbar />
-        <Route path="/" component={Home} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
         <Footer />
       </Fragment>
     </Router>
