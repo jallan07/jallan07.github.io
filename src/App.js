@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/layouts/Home';
 import About from './components/layouts/About';
+import Contact from './components/layouts/Contact';
 // styles
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -19,6 +20,7 @@ function App() {
         <Navbar />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
         <Footer />
       </Fragment>
     </Router>
