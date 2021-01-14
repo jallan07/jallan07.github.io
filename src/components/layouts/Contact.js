@@ -18,23 +18,23 @@ function Contact() {
             <div class="mb-3">
               <ul>
                 <li class="ml-4">
-                  <strong>Phone:</strong>
+                  <strong>Phone: </strong>
                   <a href="tel:6153065800">(615) 306-5800</a>
                 </li>
                 <li class="ml-4">
-                  <strong>Email:</strong>
+                  <strong>Email: </strong>
                   <a href="mailto:allan.josh07@gmail.com">
                     allan.josh07@gmail.com
                   </a>
                 </li>
                 <li class="ml-4">
-                  <strong>GitiHub:</strong>
+                  <strong>GitiHub: </strong>
                   <Link to="github.com/jallan07" target="_blank">
                     github.com/jallan07
                   </Link>
                 </li>
                 <li class="ml-4">
-                  <strong>LinkedIn:</strong>
+                  <strong>LinkedIn: </strong>
                   <Link tp="linkedin.com/in/joshuamallan" target="_blank">
                     linkedin.com/in/joshuamallan
                   </Link>

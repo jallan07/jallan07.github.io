@@ -8,25 +8,25 @@
   {
     "id": 2,
     "name": "GitHub",
-    "url": "github.com/jallan07",
+    "url": "https://www.github.com/jallan07",
     "icon": "fab fa-github-square"
   },
   {
     "id": 3,
     "name": "Linkedin",
-    "url": "linkedin.com/in/joshuamallan/",
+    "url": "https://www.linkedin.com/in/joshuamallan/",
     "icon": "fab fa-linkedin"
   },
   {
     "id": 4,
     "name": "Facebook",
-    "url": "facebook.com/joshua.m.allan",
+    "url": "https://www.facebook.com/joshua.m.allan",
     "icon": "fab fa-facebook-square"
   },
   {
     "id": 5,
     "name": "Resume/CV",
-    "url": "drive.google.com/file/d/1O1_YmbnMh73aZw9gmnmFZWn4r_MkU977/view?usp=sharing",
+    "url": "https://bit.ly/josh-allan-resume-cv",
     "icon": "fas fa-address-card"
   }
 ]

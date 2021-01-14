@@ -53,15 +53,15 @@ function Navbar() {
               <div className="dropdown-menu">
                 {connectLinks.map((link) => {
                   return (
-                    <Link
+                    <a
                       className="dropdown-item"
-                      to={link.url}
+                      href={link.url}
                       target="_blank"
                       rel="noreferrer"
                       key={link.id}
                     >
                       {link.name}
-                    </Link>
+                    </a>
                   );
                 })}
               </div>
