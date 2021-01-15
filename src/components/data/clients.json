@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Elite Window Co",
+    "deployedUrl": "https://www.elitewindowco.com/",
+    "platform": "Wordpress",
+    "image": "/images/clients/Elite-Window-Co.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "RVA GRUBS",
+    "deployedUrl": "https://www.rvagrubs.com/",
+    "platform": "Wordpress",
+    "image": "/images/clients/RVAGRUBS.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Roxberry Juice Co",
+    "deployedUrl": "https://www.roxberryjuice.com/",
+    "platform": "Wordpress",
+    "image": "/images/clients/Roxberry-Juice-Co.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Totem PD",
+    "deployedUrl": "https://www.totempd.com/",
+    "platform": "Wordpress",
+    "image": "/images/clients/Totem-PD.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Moniker Branding",
+    "deployedUrl": "https://monikerbranding.com/",
+    "platform": "Wordpress",
+    "image": "/images/clients/Moniker-Branding.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Strategic America Consulting Group",
+    "deployedUrl": "https://sacgusa.com/",
+    "platform": "Wordpress",
+    "image": "/images/clients/Strategic-America-Consulting-Group.jpeg"
+  }
+]
