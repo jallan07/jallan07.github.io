@@ -6,7 +6,7 @@ function Home() {
     <main className="container-fluid">
       <section className="row wrapper homepage-hero">
         <section
-          className="container col-md-6 col-sm-6 offset-1"
+          className="container col-md-10 col-sm-10 offset-1"
           data-aos="fade-up"
           data-aos-duration="1200"
           data-aos-easing="ease-in-out"

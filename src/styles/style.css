@@ -78,14 +78,14 @@ main {
   flex: 1 0 auto;
 }
 .homepage-hero {
-  padding-top: 12%;
-  height: 80vh;
+  padding-top: 10%;
+  height: 76vh;
 }
 
 /* Main heading on home page */
 .hero-heading {
   color: white;
-  margin: 5% 0;
+  margin: 60px 0 25px 0;
 }
 
 .container {
