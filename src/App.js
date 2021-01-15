@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import Home from './components/layouts/Home';
 import About from './components/layouts/About';
 import Contact from './components/layouts/Contact';
+import Clients from './components/layouts/Clients';
+
 // styles
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -21,6 +23,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/clients" component={Clients} />
         <Footer />
       </Fragment>
     </Router>
