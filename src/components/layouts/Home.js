@@ -12,7 +12,7 @@ function Home() {
           data-aos-easing="ease-in-out"
         >
           <h1 className="hero-heading">I write beautiful code.</h1>
-          <Link to="/portfolio">
+          <Link to="/projects">
             <button type="button" className="btn btn-success btn-lg">
               View My Work
             </button>
