@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "NY Times Article Search",
+    "name": "NY Times | Article Search",
     "overview": "This practice exercise focused on creating an API call, and returning the data received from the API call to display it for the user. It is a simple article search tool.",
     "userStory": "AS AN up and coming journalist I WANT a tool that allows me to search the NY Times database SO THAT I can see current news trends and report on the most timely/newsworthy stories.",
     "technologies": "Javascript, jQuery, HTML/CSS, NY Times API, Bootstrap",
@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "name": "Katana Sushi",
+    "name": "Katana Sushi | One Page Website",
     "overview": "This was purely a practice exercise that I did to test my knowledge and expand my capabilities. I put this one-page website template together shortly after being introduced to both Javascript and the Bootstrap CSS Framework, so I wanted to push myself and create something that I felt could actually be used by a restaurant. While the site is simple, it showcases my abilities to design with both the user and mobile in mind.",
     "userStory": "AS A sushi restaurant owner I WANT a modern website that showcases my high-end food SO THAT I can grow my customer base and increase sales.",
     "technologies": "Javascript, HTML/CSS, Bootstrap",
@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "name": "Lunchbox Coding Quiz",
+    "name": "Lunchbox | Coding Quiz",
     "overview": "This is an interactive quiz that tests your knowledge on Javascript coding fundamentals. Race the clock as you try to answer every question before time runs out! Be careful though—every wrong answer deducts 10 seconds from the clock! Once you finish, be sure to save your score to the leaderboard list so you can come back and try and beat your top score. Learn the fundamentals of coding in bite-sized chunks!",
     "userStory": "AS A student of coding I WANT to take a timed quiz on JavaScript fundamentals that stores high scores SO THAT I can gauge my progress compared to my peers.",
     "technologies": "Javascript, Bootstrap, HTML/CSS",
@@ -37,7 +37,7 @@
   },
   {
     "id": 4,
-    "name": "PA$$WORD G3N3RAT0R",
+    "name": "PA$$WORD G3N3RAT0R | Secure Passwords",
     "overview": "In this project, I create a random password generator using input from the end user on character count, and character set (lowercase, uppercase, numbers, and/or symbols). It is largely Javascript focused, and utilizes a series of functions to collect user criteria, output the password, and copy to the clipboard. I also used some Javascript to change the main heading upon password creation.",
     "userStory": "AS AN employee with access to sensitive data I WANT to randomly generate a password that meets certain criteria SO THAT I can create a strong password that provides greater security.",
     "technologies": "Javascript, Bootstrap, HTML/CSS",
@@ -49,7 +49,7 @@
   },
   {
     "id": 5,
-    "name": "Blockify Scheduling App",
+    "name": "Blockify | Scheduling App",
     "overview": "In this project, I created a simple work day calendar application that allows the user to save events for each hour of the day. This app runs in the browser, and features dynamically updated HTML and CSS powered by jQuery. As the day progresses, past hour blocks appear in grey, current hour blocks appear in green, and future hour blocks appear in blue. Data that is added to hour blocks can be saved or cleared using the plus or minus icons, respectfully.",
     "userStory": "AS AN employee with a busy schedule I WANT to add important events to a daily planner SO THAT I can manage my time effectively.",
     "technologies": "Javascript, HTML/CSS, jQuery, Moment.js, Local Storage, Bootstrap",
@@ -73,7 +73,7 @@
   },
   {
     "id": 7,
-    "name": "RVA GRUBS",
+    "name": "RVA GRUBS | Foodie Hub",
     "overview": "A passion project that I use to test out my learning and hone new skills. As I build this out, I want to be able to display trending restaurants in the area, current promos/deals, and tips on what to order. The project is still in its early stages, but with my ever-growing list of skills in web dev, I plan to see this take more shape over the years. Follow @RVAGRUBS on Instagram for good eats in RVA and the surrounding areas.",
     "userStory": "AS A foodie living in Richmond, VA I WANT to know all the trending restaurants in the area SO THAT I can try each one.",
     "technologies": "HTML/CSS, jQuery, Bootstrap, Font Awesome, Zomato API",
@@ -85,7 +85,7 @@
   },
   {
     "id": 8,
-    "name": "Readme Generator",
+    "name": "Readme Generator | Create Good Readmes",
     "overview": "This is a CLI application that runs using Node.js. It receives user input, and dynamically creates a readme file for a project after input is received.",
     "userStory": "AS A developer I WANT a README generator SO THAT can quickly create a professional README for a new project.",
     "technologies": "Javascript, Node.js, Inquirer.js",
@@ -109,7 +109,7 @@
   },
   {
     "id": 10,
-    "name": "BandMates",
+    "name": "BandMates | Musician Finder",
     "overview": "This web application is an MVP/proof-of-concept designed to match a user with potential band mates that fit their search criteria. The main idea is that bandmates connects musicians looking for a singer, drummer, guitarist etc in a specific location and skillset that the user is looking for. In order to achieve this, our team, the blue barracoders, had to use various APIs from google maps api, random german profile api. The styling and format used to create the display and styling was bulma. The back-end functions that were used to generate random profiles were designed by Javascript functions and J.Query. This web/ application was designed by Josh Allan, Melanie Hall, Patrick Whelan and Baxter Cox.",
     "userStory": "AS AN aspiring musician I WANT to find other musicians with similar interests and sounds SO THAT I can form and play in a band.",
     "technologies": "Javascript, HTML/CSS, Bulma CSS Framework, jQuery, Font Awesome, Random German Profile Generator API, Google Maps API",
@@ -121,7 +121,7 @@
   },
   {
     "id": 11,
-    "name": "Rude Dude Burger Annihilator",
+    "name": "Rude Dude | Burger Annihilator",
     "overview": "The Rude Dude is a restaurant app that lets users input the names of burgers they'd like to eat. Once a burger has been eaten (annihilated), the burger can be moved from the 'haven't been annihilated' section to the 'have been annihilated' section by clicking the 'eat burger' button.",
     "userStory": "AS A foodie who specifically loves burgers I WANT an easy way to keep track of burgers I've eaten in my area SO THAT I can know which ones (and which restaurants) I should try next.",
     "technologies": "Javascript, Heroku, JawsDB, MySQL, Handlebars (Template Engine), Express.js, Object Relational Mapper, HTML/CSS",
@@ -157,13 +157,49 @@
   },
   {
     "id": 14,
-    "name": "GitJobs Application Tracker & Rolodex",
+    "name": "GitJobs | Application Tracker & Rolodex",
     "overview": "Using GitJobs, you can track your professional contacts and job applications in one central place. Take control of your career today! GitJobs provides a two-pronged approach to empower job-seekers: 1) A digital-rolodex style personal CRM, and 2) An application tracking Job Board.",
     "userStory": "AS A job-seeking individual I WANT an easy way to keep track of my job applications and professional contacts SO THAT I can utilize the connections I have and land my dream job.",
     "technologies": "Javascript, HTML/CSS, MySQL, Node.js, Express.js, jQuery, Bootstrap, Animate On Scroll, Sequelize, Handlebars.js, JawsDB, Heroku, Passport (LinkedIn Oauth 2 Strategy), Travis.yml, ESLint, Nodemon, .env, Body-parser",
     "deployedUrl": "https://gitjobs-application-tracker.herokuapp.com/",
     "repoUrl": "https://github.com/jallan07/gitjobs-application-tracker",
     "image": "/images/projects/GitJobs.jpeg",
+    "badgeStatus": "Completed",
+    "badgeClass": "primary"
+  },
+  {
+    "id": 15,
+    "name": "Revitalize Health | Personal Fitness Tracker",
+    "overview": "With Revitalize Health, you can easily track your workouts throughout the week. Revitalize utilizes MongoDB to record and store your workout data, and displays that data in a simple, easy-to-read view. Revitalize your life today with Revitalize Health!",
+    "userStory": "AS A health-conscious individual, I WANT a way to track my workouts throughout the week SO THAT I can visualize my progress and stay committed to my overall health.",
+    "technologies": "MongoDB, Heroku, .env Environmental Variables, HTML/CSS, Javascript, Compression NPM Package",
+    "deployedUrl": "https://revitalize-health.herokuapp.com/",
+    "repoUrl": "https://github.com/jallan07/fitness-app",
+    "image": "",
+    "badgeStatus": "Completed",
+    "badgeClass": "primary"
+  },
+  {
+    "id": 16,
+    "name": "Goldilocks | Budget Tracker",
+    "overview": "This simple budget tracker utilizes PWA technology to cache static files and transaction data so that users can use the application with or without internet connection. My responsibility was to build the backend service worker that enables that functionality.",
+    "userStory": "AS AN avid traveller I WANT to be able to track my withdrawals and deposits with or without a data/internet connection SO THAT my account balance is accurate when I am traveling",
+    "technologies": "Service Workers, Online/Offline Functionality, IndexedDB, File Caching, MongoDB Atlas, Web Manifest",
+    "deployedUrl": "https://goldilocks-budget-tracker.herokuapp.com/",
+    "repoUrl": "https://github.com/jallan07/pwa-budget-tracker",
+    "image": "",
+    "badgeStatus": "Completed",
+    "badgeClass": "primary"
+  },
+  {
+    "id": 17,
+    "name": "Employable | Employee Table Directory",
+    "overview": "Employable allows users to search through the mock database of employees and filter them out by name, email, or phone number. It also allows for column sorting in the name or age column. In short, it's a simple employee table directory powered by React.js.",
+    "userStory": "AS AN employer and team manager, I WANT to be able to view my entire employee directory at once SO THAT I have quick access to their information.",
+    "technologies": "React.js, React-router-dom, React-bootstrap/bootswatch, Axios, Generate-unique-id, Moment.js, React Hooks (useEffect, useState), Javascript, HTML/CSS",
+    "deployedUrl": "https://employable-react-directory.netlify.app/",
+    "repoUrl": "https://github.com/jallan07/employable-react-directory",
+    "image": "",
     "badgeStatus": "Completed",
     "badgeClass": "primary"
   }
