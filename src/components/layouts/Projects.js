@@ -25,24 +25,49 @@ function Projects() {
   console.log(filteredProjects);
 
   return (
-    <div>
-      {filteredProjects.reverse().map((project) => {
-        return (
-          <Project
-            id={project.id}
-            name={project.name}
-            overview={project.overview}
-            userStory={project.userStory}
-            technologies={project.technologies}
-            deployedUrl={project.deployedUrl}
-            repoUrl={project.repoUrl}
-            image={project.image}
-            badgeStatus={project.badgeStatus}
-            badgeClass={project.badgeClass}
+    <section className=" accordion-section row wrapper">
+      <section
+        className="container main-container col-md-9 col-xs-12 offset-1"
+        data-aos="fade-up"
+        data-aos-duration="1200"
+        data-aos-easing="ease-in-out"
+      >
+        <div className="main-heading">
+          <h2>Recent Coding Projects:</h2>
+        </div>
+
+        <section
+          className="main-content accordion-section recent-work"
+          id="#accordionExample"
+        >
+          <h5 className="d-inline mr-2">Project Search</h5>
+          <i class="fab fa-searchengin d-inline mr-3"></i>
+          <input
+            class="d-inline form-control col-md-6 mb-3"
+            type="search"
+            placeholder="Enter project name or technology"
+            aria-label="Search"
           />
-        );
-      })}
-    </div>
+          {filteredProjects.reverse().map((project) => {
+            return (
+              <Project
+                key={project.id}
+                id={project.id}
+                name={project.name}
+                overview={project.overview}
+                userStory={project.userStory}
+                technologies={project.technologies}
+                deployedUrl={project.deployedUrl}
+                repoUrl={project.repoUrl}
+                image={project.image}
+                badgeStatus={project.badgeStatus}
+                badgeClass={project.badgeClass}
+              />
+            );
+          })}
+        </section>
+      </section>
+    </section>
   );
 }
 
