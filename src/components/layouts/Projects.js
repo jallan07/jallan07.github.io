@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import projects from '../data/projects.json';
 import API from '../../utils/API';
+import projects from '../data/projects.json';
+import Project from '../Project';
 
 function Projects() {
   // set the search state and method
@@ -10,10 +11,8 @@ function Projects() {
 
   // when the component loads, go fetch the projects using the custom api call and store them in the projectsState object
   useEffect(() => {
-    API.getProjects().then(({ data }) => {
-      setProjects(data);
-      console.log({ projectsState });
-    });
+    setProjects(API.getProjects());
+    console.log({ projectsState });
   }, []);
 
   let filteredProjects = projects.filter((project) => {
@@ -23,10 +22,28 @@ function Projects() {
       project.name.toLowerCase().indexOf(searchState) !== -1
     );
   });
+  console.log(filteredProjects);
 
-  console.log({ filteredProjects });
-
-  return <div>Hi</div>;
+  return (
+    <div>
+      {filteredProjects.reverse().map((project) => {
+        return (
+          <Project
+            id={project.id}
+            name={project.name}
+            overview={project.overview}
+            userStory={project.userStory}
+            technologies={project.technologies}
+            deployedUrl={project.deployedUrl}
+            repoUrl={project.repoUrl}
+            image={project.image}
+            badgeStatus={project.badgeStatus}
+            badgeClass={project.badgeClass}
+          />
+        );
+      })}
+    </div>
+  );
 }
 
 export default Projects;

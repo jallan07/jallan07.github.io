@@ -11,7 +11,7 @@ function Client() {
               <img
                 src={client.image}
                 alt={`${client.name} | Web Design by Josh Allan`}
-                className="img-fluid img-portfolio"
+                className="img-portfolio"
               />
               <div className="img-middle">
                 <div className="img-text">

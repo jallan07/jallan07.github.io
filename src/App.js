@@ -7,6 +7,7 @@ import Home from './components/layouts/Home';
 import About from './components/layouts/About';
 import Contact from './components/layouts/Contact';
 import Clients from './components/layouts/Clients';
+import Projects from './components/layouts/Projects';
 
 // styles
 import AOS from 'aos';
@@ -24,6 +25,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/clients" component={Clients} />
+        <Route exact path="/projects" component={Projects} />
         <Footer />
       </Fragment>
     </Router>

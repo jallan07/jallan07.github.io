@@ -25,6 +25,11 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarColor01">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item mx-3">
+              <Link className="nav-link" to="/projects">
+                Projects
+              </Link>
+            </li>
+            <li className="nav-item mx-3">
               <Link className="nav-link" to="/clients">
                 Clients
               </Link>
