@@ -16,7 +16,7 @@ function Project({
     <div className="card" key={id}>
       <div
         className="card-header d-flex justify-content-between align-items-center"
-        id={`${name}1`}
+        id={`${name}`}
       >
         <h2 className="mb-0">
           <button

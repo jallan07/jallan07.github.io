@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import API from '../../utils/API';
 import projects from '../data/projects.json';
 import Project from '../Project';
+import Search from '../Search';
 
 function Projects() {
   // set the search state and method
@@ -12,7 +13,6 @@ function Projects() {
   // when the component loads, go fetch the projects using the custom api call and store them in the projectsState object
   useEffect(() => {
     setProjects(API.getProjects());
-    console.log({ projectsState });
   }, []);
 
   let filteredProjects = projects.filter((project) => {
@@ -22,10 +22,14 @@ function Projects() {
       project.name.toLowerCase().indexOf(searchState) !== -1
     );
   });
-  console.log(filteredProjects);
+
+  // search functionality
+  function search(e) {
+    setSearch(e.target.value.toLowerCase());
+  }
 
   return (
-    <section className=" accordion-section row wrapper">
+    <section className="accordion-section row wrapper">
       <section
         className="container main-container col-md-9 col-xs-12 offset-1"
         data-aos="fade-up"
@@ -37,17 +41,10 @@ function Projects() {
         </div>
 
         <section
-          className="main-content accordion-section recent-work"
+          className="main-content accordion-section recent-work mb-5 mt-3"
           id="#accordionExample"
         >
-          <h5 className="d-inline mr-2">Project Search</h5>
-          <i class="fab fa-searchengin d-inline mr-3"></i>
-          <input
-            class="d-inline form-control col-md-6 mb-3"
-            type="search"
-            placeholder="Enter project name or technology"
-            aria-label="Search"
-          />
+          <Search onChange={search} />
           {filteredProjects.reverse().map((project) => {
             return (
               <Project
