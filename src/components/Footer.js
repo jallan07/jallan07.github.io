@@ -7,15 +7,15 @@ function Footer() {
       <div className="footer-content">
         <h6>Created by Josh Allan | Copyright © 2020</h6>
         <span>
-          <Link to="freepik.com" target="_blank">
+          <a href="https://www.freepik.com" target="_blank" rel="noreferrer">
             Background by starline
-          </Link>
+          </a>
         </span>
         <span> | </span>
         <span>
-          <Link to="reactjs.org" target="_blank">
+          <a href="https://www.reactjs.org" target="_blank" rel="noreferrer">
             Built with React.js
-          </Link>
+          </a>
         </span>
       </div>
     </footer>

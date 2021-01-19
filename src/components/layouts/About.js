@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import links from '../data/links.json';
 
 function Home() {
@@ -18,7 +17,7 @@ function Home() {
           <div className="main-content">
             <img
               src="/images/Profile-Picture.jpeg"
-              className="img-thumbnail profile-picture float-left rounded"
+              className="img-thumbnail profile-picture float-left rounded mr-3"
               width="150"
               alt="Profile | Josh Allan"
             />
@@ -31,15 +30,15 @@ function Home() {
             </p>
             <div className="social-links d-inline-block mb-2">
               {links.map((link) => (
-                <Link
+                <a
                   className="mr-3"
-                  to={link.url}
+                  href={link.url}
                   target="_blank"
                   rel="noreferrer"
                   key={link.id}
                 >
                   <i className={link.icon}></i>
-                </Link>
+                </a>
               ))}
             </div>
           </div>

@@ -45,23 +45,36 @@ function Projects() {
           id="#accordionExample"
         >
           <Search onChange={search} />
-          {filteredProjects.reverse().map((project) => {
-            return (
-              <Project
-                key={project.id}
-                id={project.id}
-                name={project.name}
-                overview={project.overview}
-                userStory={project.userStory}
-                technologies={project.technologies}
-                deployedUrl={project.deployedUrl}
-                repoUrl={project.repoUrl}
-                image={project.image}
-                badgeStatus={project.badgeStatus}
-                badgeClass={project.badgeClass}
-              />
-            );
-          })}
+          {filteredProjects.length ? (
+            <div>
+              {filteredProjects.reverse().map((project) => {
+                return (
+                  <Project
+                    key={project.id}
+                    id={project.id}
+                    name={project.name}
+                    overview={project.overview}
+                    userStory={project.userStory}
+                    technologies={project.technologies}
+                    deployedUrl={project.deployedUrl}
+                    repoUrl={project.repoUrl}
+                    image={project.image}
+                    badgeStatus={project.badgeStatus}
+                    badgeClass={project.badgeClass}
+                  />
+                );
+              })}{' '}
+            </div>
+          ) : (
+            <div className="search-error my-3">
+              <h5>No results to display.</h5>
+              <p>
+                Are you sure you spelled that right? Try searching by project
+                name (such as <em>Goldilocks</em>) or technology (such as{' '}
+                <em>React</em>).
+              </p>
+            </div>
+          )}
         </section>
       </section>
     </section>

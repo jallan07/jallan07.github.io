@@ -17,27 +17,35 @@ function Contact() {
           <div class="main-content">
             <div class="mb-3">
               <ul>
-                <li class="ml-4">
+                <li class="ml-4 contact-link">
                   <strong>Phone: </strong>
                   <a href="tel:6153065800">(615) 306-5800</a>
                 </li>
-                <li class="ml-4">
+                <li class="ml-4 contact-link">
                   <strong>Email: </strong>
                   <a href="mailto:allan.josh07@gmail.com">
                     allan.josh07@gmail.com
                   </a>
                 </li>
-                <li class="ml-4">
+                <li class="ml-4 contact-link">
                   <strong>GitiHub: </strong>
-                  <Link to="github.com/jallan07" target="_blank">
+                  <a
+                    href="https://www.github.com/jallan07"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     github.com/jallan07
-                  </Link>
+                  </a>
                 </li>
-                <li class="ml-4">
+                <li class="ml-4 contact-link">
                   <strong>LinkedIn: </strong>
-                  <Link tp="linkedin.com/in/joshuamallan" target="_blank">
+                  <a
+                    href="https://www.linkedin.com/in/joshuamallan"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     linkedin.com/in/joshuamallan
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

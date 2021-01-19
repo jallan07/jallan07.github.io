@@ -17,6 +17,7 @@ h6 {
 
 p {
   color: #343a40;
+  font-size: 1.15rem;
 }
 
 img {
@@ -251,6 +252,11 @@ form {
   padding-left: 1.25rem;
 }
 
+/* Contact Page */
+.contact-link {
+  font-size: 1.15rem;
+}
+
 /* Footer */
 footer {
   background: #ecf0f1;
@@ -316,14 +322,3 @@ footer {
     opacity: 0.95;
   }
 }
-
-/* 425 Break point
-    @media screen and (max-width: 425px) {
-        .main-container {
-            margin: 10% 0 20% 0;
-        }
-    
-        .main-content {
-            font-size: 16px;
-        }
-    } */
