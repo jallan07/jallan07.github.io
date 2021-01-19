@@ -58,10 +58,10 @@ nav {
 }
 
 /* MAIN CONTENT*/
-main {
+/* main {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .wrapper {
   /* Main background image */
@@ -74,9 +74,9 @@ main {
   /* General styles */
   padding-top: 7%;
   min-height: 100%;
-  display: grid;
-  grid-template-rows: 1fr auto;
-  flex: 1 0 auto;
+  /* display: grid;
+  grid-template-rows: 1fr auto; */
+  /* flex: 1 0 auto; */
 }
 .homepage-hero {
   padding-top: 10%;
@@ -263,7 +263,7 @@ footer {
   width: 100%;
   border-top: 5px solid #8f2646c4;
   padding: 20px;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 }
 
 .footer-content {
@@ -320,5 +320,11 @@ footer {
   }
   .img-bottom {
     opacity: 0.95;
+  }
+  .display-1 {
+    font-size: 40px;
+  }
+  .display-4 {
+    font-size: 30px;
   }
 }
