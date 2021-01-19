@@ -3,7 +3,7 @@ import Client from '../Client';
 
 function Clients() {
   return (
-    <section class=" wrapper">
+    <section class="accordion-section row wrapper">
       <section
         class="container main-container col-md-9 col-xs-12 offset-1"
         data-aos="fade-up"
