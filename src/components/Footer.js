@@ -2,10 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Footer() {
+  const handleGenerateCopyrightYear = () => {
+    return `${new Date().getFullYear()}`;
+  };
+
   return (
     <footer>
       <div className="footer-content">
-        <h6>Created by Josh Allan | Copyright © 2020</h6>
+        <h6>
+          Created by Josh Allan | Copyright © {handleGenerateCopyrightYear()}
+        </h6>
         <span>
           <a href="https://www.freepik.com" target="_blank" rel="noreferrer">
             Background by starline
