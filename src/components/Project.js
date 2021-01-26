@@ -54,14 +54,20 @@ function Project({
         </div>
         <div className="card-links">
           <h5>Links</h5>
-          <a
-            href={deployedUrl}
-            className="mr-3"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fas fa-external-link-alt mr-2"></i>Deployed App
-          </a>
+          {deployedUrl ? (
+            <a
+              href={deployedUrl}
+              className="mr-3"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fas fa-external-link-alt mr-2"></i>Deployed App
+            </a>
+          ) : (
+            <a href="#!" className="mr-3">
+              <i class="fas fa-spinner mr-2"></i>Deploying Soon
+            </a>
+          )}
           <br />
           <a href={repoUrl} className="mr-3" target="_blank" rel="noreferrer">
             <i className="fab fa-github mr-2"></i>Github Repository

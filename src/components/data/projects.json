@@ -77,8 +77,8 @@
     "overview": "A passion project that I use to test out my learning and hone new skills. As I build this out, I want to be able to display trending restaurants in the area, current promos/deals, and tips on what to order. The project is still in its early stages, but with my ever-growing list of skills in web dev, I plan to see this take more shape over the years. Follow @RVAGRUBS on Instagram for good eats in RVA and the surrounding areas.",
     "userStory": "AS A foodie living in Richmond, VA I WANT to know all the trending restaurants in the area SO THAT I can try each one.",
     "technologies": "HTML/CSS, jQuery, Bootstrap, Font Awesome, Zomato API",
-    "deployedUrl": "https://jallan07.github.io/rvagrubs/",
-    "repoUrl": "https://github.com/jallan07/rvagrubs",
+    "deployedUrl": "",
+    "repoUrl": "https://github.com/jallan07/react-rvagrubs",
     "image": "",
     "badgeStatus": "In Progress",
     "badgeClass": "warning"
