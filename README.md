@@ -49,7 +49,7 @@ Distributed under the MIT License.
 
 ---
 
-## #Author
+## Author
 
 Below is my information. Please feel free to reach out, connect, or ping me about dev projects—I'm always happy to help!
 
