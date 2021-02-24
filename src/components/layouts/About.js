@@ -1,5 +1,9 @@
 import React from 'react';
-import links from '../data/links.json';
+
+// components
+import Technologies from '../Technologies';
+import GithubStats from '../GithubStats';
+import Socials from '../Socials';
 
 function Home() {
   return (
@@ -15,31 +19,59 @@ function Home() {
             <h2>Full-stack student, father, developer.</h2>
           </div>
           <div className="main-content">
-            <img
-              src="/images/Profile-Picture.jpeg"
-              className="img-thumbnail profile-picture float-left rounded mr-3"
-              width="150"
-              alt="Profile | Josh Allan"
-            />
-            <p>
-              With a Bachelor's degree in Communications from Brigham Young
-              University, over 10 years of digital marketing experience, and a
-              (soon-to-be) Full-Stack Web Development Certification from the
-              University of Richmond, I'm more than capable of taking your
-              website to the next level.
-            </p>
-            <div className="social-links d-inline-block mb-2">
-              {links.map((link) => (
-                <a
-                  className="mr-3"
-                  href={link.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  key={link.id}
-                >
-                  <i className={link.icon}></i>
-                </a>
-              ))}
+            <div className="row">
+              <div className="col-md-2 mx-auto my-3">
+                <img
+                  src="/images/Profile-Picture.jpeg"
+                  className="img-thumbnail profile-picture float-left rounded mr-3"
+                  width="200"
+                  alt="Profile | Josh Allan"
+                />
+              </div>
+              <div className="col-md-10">
+                <p>
+                  Innovative Frontend Developer with expertise in both web
+                  design and digital marketing. Offering 10+ years of
+                  professional marketing experience, with a fresh Full-Stack Web
+                  Development certification (MERN stack) added to my belt. Quick
+                  to learn and master new technologies, and able to work in both
+                  team- and self-directed environments.
+                </p>
+                <ul className="ml-5 mr-3 small">
+                  <li>
+                    <img
+                      src="/images/uofr.png"
+                      alt="University of Richmond"
+                      width="20"
+                      className="mr-0"
+                    ></img>{' '}
+                    &nbsp; University of Richmond Coding Bootcamp (Full-stack,
+                    MERN) alum
+                  </li>
+                  <li>👔 &nbsp; 2x entreprenuer and business owner</li>
+                  <li>
+                    🥅 &nbsp; 2021 Goal: Land my first job as a Frontend Web
+                    Developer
+                  </li>
+                  <li>
+                    👯 &nbsp; Looking to collaborate with other code-hungry
+                    developers
+                  </li>
+                  <li>
+                    🎥 &nbsp; Lover of all things Star Wars (movies, books, tv,
+                    games, etc.)
+                  </li>
+                  <li>
+                    🍗 &nbsp; Fun fact: I run the @rvagrubs instagram account
+                  </li>
+                </ul>
+                {/* Import the technologies component */}
+                <Technologies />
+                {/* Import the github stats component */}
+                <GithubStats />
+                {/* Import the social links component */}
+                <Socials />
+              </div>
             </div>
           </div>
         </section>
