@@ -5,7 +5,7 @@ import Technologies from '../Technologies';
 import GithubStats from '../GithubStats';
 import Socials from '../Socials';
 
-function Home() {
+function About() {
   return (
     <main className="container-fluid">
       <section className="row wrapper">
