@@ -1,5 +1,3 @@
-# React Portfolio | [joshallan.dev](https://joshallan.dev)
-
 ## **Table of Contents**
 
 1. [Description](#Description)
@@ -34,8 +32,6 @@ After 10 years of digital marketing experience, I made the move over to full sta
 ---
 
 ## Deployment Status
-
-Deployed URL: [https://www.joshallan.dev/](https://www.joshallan.dev/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9ddf87c0-ea21-4da2-b6df-2945ab220f96/deploy-status)](https://app.netlify.com/sites/optimistic-mccarthy-470a74/deploys)
 
